@@ -1,0 +1,32 @@
+version: '3'
+
+services:
+
+  duck-fed:
+    environment:
+      - NODE_ENV=development
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    container_name: duck-fed
+    ports:
+      - "3000:3000"
+    depends_on:
+      - mongo-duck-fed
+    networks:
+      - mongonetwork
+  mongo-duck-fed:
+    image: mongo:5.0.0
+    container_name: mongo-duck-fed
+    hostname: localhost
+    ports:
+      - 27017:27017
+    volumes:
+      - ./mongodb:/data/db
+    restart: unless-stopped
+    command: mongod --port 27017 --bind_ip_all
+    networks:
+      - mongonetwork
+networks:
+  mongonetwork:
+    driver: bridge
