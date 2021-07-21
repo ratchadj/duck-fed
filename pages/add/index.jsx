@@ -39,7 +39,7 @@ export default function Add() {
   const [alert, setAlert] = useState({});
   const [backDropLoading, setBackDropLoading] = useState(false);
 
-  const handleSelect = async (address) => {
+  const handleSelect = (address) => {
     setAddress(address);
     geocodeByAddress(address)
       .then((results) => getLatLng(results[0]))
@@ -50,7 +50,7 @@ export default function Add() {
       .catch((error) => console.error("Error", error));
   };
 
-  const submitFedForm = async (e) => {
+  const submitFedForm = (e) => {
     e.preventDefault();
 
     /** loading */
