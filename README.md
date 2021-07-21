@@ -57,11 +57,11 @@ Contributors names and contact info
 ## Architectural design
 NextJS - Builds on top of React. It's easy one to work with dynamic route, data fetching, layouts, image optimizing, SEO etc. [Learn more](https://nextjs.org/docs/basic-features/pages)
 
-NextJS API - Our website is simple request server-side to retrieve data. NextJS help us to easy develope. Able to deploy as serverless functions with AWS easily. [Learn more](https://www.serverless.com/blog/serverless-nextjs)
+NextJS API - Our website is a simple request server-side to retrieve data. NextJS helps us to easily develop. Able to deploy as serverless functions with AWS easily. [Learn more](https://www.serverless.com/blog/serverless-nextjs)
 
-Mongo DB - RDBMS is good one but difficulties to scalling with sharding. I think for saving a lot of research data. I think NOSQL is more suitable. That's why I use document stores - MongDB with flexible schemas. [Learn more](https://www.xplenty.com/blog/which-database/)
+Mongo DB - RDBMS is a good one but has difficulties scaling with sharding. For saving a lot of research data. I think NOSQL is more suitable. That's why I use document stores - MongDB with flexible schemas. [Learn more](https://www.xplenty.com/blog/which-database/)
 
-REST API - Eventhough REST API has a fixed data structures. It's not flexible like GraphQL. But our web application is less data structures. Lest API endpoint. I think REST API is Easy to understand and implement. [Learn more](https://www.sanity.io/guides/graphql-vs-rest-api-comparison)
+REST API - Even Though REST API has fixed data structures. It's not flexible like GraphQL. But our web application is less data structures. Lest API endpoint. I think REST API is Easy to understand and implement. [Learn more](https://www.sanity.io/guides/graphql-vs-rest-api-comparison)
 
 ## Version History
 
