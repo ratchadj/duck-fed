@@ -1,7 +1,7 @@
 # Duck Fed System
 
 ## Description
-Research Duck Fed System using NextJS Framework [Design Document](https://github.com/ratchadj/duck-fed/blob/master/Feed-Duck-System-Design.pdf)
+Research Duck Fed System using NextJS Framework [Design Document](https://github.com/ratchadj/duck-fed/blob/master/Feed-Duck-System-Design-0.1.0.pdf)
 
 ## Getting Started
 
